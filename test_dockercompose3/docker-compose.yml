@@ -4,10 +4,10 @@ services:
     build: .
     ports:
       - 28080:8080
+    volumes:
+      - ../huhscats:/app/img
       
   simple_pyweb:
-    image: uplsh580/simple_pyweb:0.2
+    image: yeasy/simple-web
     ports:
-      - 38080:8080
-    volumes:
-      - /home/ubuntu/environment/huhscats:/app/img
+      - 38080:80
