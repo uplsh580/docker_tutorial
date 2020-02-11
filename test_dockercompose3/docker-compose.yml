@@ -1,0 +1,6 @@
+version: "3"
+services: 
+  test_pyweb:
+    build: .
+    ports:
+      - 28080:8080

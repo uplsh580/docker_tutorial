@@ -1,0 +1,6 @@
+version: "3"
+services: 
+  test_pyweb:
+    image: uplsh580/test_pyweb:0.1
+    ports:
+      - 28080:8080
