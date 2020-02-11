@@ -1,8 +1,9 @@
 version: "3"
 services: 
-  test_pyweb:
+  simple_pyweb:
     build: .
     ports:
       - 28080:8080
     volumes:
       - /home/ubuntu/environment/huhscats:/app/img
+  
