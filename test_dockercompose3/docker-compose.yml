@@ -1,13 +1,13 @@
 version: "3"
 services: 
-  test_pyweb:
+  simple_pyweb:
     build: .
     ports:
       - 28080:8080
     volumes:
       - ../huhscats:/app/img
       
-  simple_pyweb:
+  yeasy_web:
     image: yeasy/simple-web
     ports:
       - 38080:80
